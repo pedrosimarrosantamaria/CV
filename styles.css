@@ -210,7 +210,7 @@ body {
 
 .post__body {
   flex: 1;
-  padding: 10px;
+  padding-top: 20px;
 }
 
 .post__avatar {
