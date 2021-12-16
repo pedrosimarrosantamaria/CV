@@ -4,6 +4,15 @@ html{
 
 .sidebar{
   display:none;
+  width: 100%;
+}
+.feed{
+  width: 100%;
+}
+
+.widgets{
+
+  width: 100%;
 }
 
 /* Hacemos visibles los subtítulos para anchos de pantalla mayores a 1024px */
