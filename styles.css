@@ -2,6 +2,17 @@ html{
   font-family: 'Roboto', sans-serif;
 }
 
+.sidebar{
+  display:none;
+}
+
+/* Hacemos visibles los subtítulos para anchos de pantalla mayores a 1024px */
+@media screen and (min-width:1024px) {
+	.sidebar {
+		display:block;
+	}
+}
+
 a{
   text-decoration: none;
   color: black;
