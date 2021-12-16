@@ -53,7 +53,7 @@ body {
   font-weight: 900;
   border-radius: 30px;
   height: 50px;
-  margin-top: 20px;
+  
 }
 
 body {
@@ -79,13 +79,17 @@ body {
   color: var(--twitter-color);
   font-size: 30px;
 }
+.fab, .far {
+  font-weight: 400;
+  padding-bottom: 0px;
+}
 
 /* feed */
 .feed {
   flex: 0.5;
   border-right: 1px solid var(--twitter-background);
   
-  overflow-y: scroll;
+  
 }
 
 .feed__header {
@@ -95,6 +99,8 @@ body {
   z-index: 100;
   border: 1px solid var(--twitter-background);
   padding: 15px 20px;
+  filter:alpha(opacity=70);
+   opacity:0.7;
 }
 
 .feed__header h2 {
@@ -270,3 +276,58 @@ body {
   margin: auto;
   display: block;
 }
+/*
+ Botones para el cambio de modo
+.container-btn-mode{
+  position: absolute;
+  top:20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 2;
+  font-size:0;
+}
+.btn-mode{
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  border:2px solid black;
+  transition: background-color .5s;
+}
+.btn-mode i {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.btn-mode.sun{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 1px solid transparent;
+}
+.btn-mode.moon{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.active{
+  background-color:black;
+  color:#ffcd5c !important;
+}
+
+ Modo oscuro 
+
+.dark-mode{
+  background-color: #0e0e0e;
+  transition:background-color .5s;
+}
+.dark-mode .card{
+  background-color: #1A1C1E;
+}
+.dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
+  color:white;
+}
+.dark-mode .btn-mode{
+  background-color:#1A1C1E;
+  border:1px solid white;
+  color:white;
+}
+*/
