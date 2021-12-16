@@ -11,13 +11,19 @@ html{
 }
 
 .widgets{
-
+  display: none;
   width: 100%;
 }
 
 /* Hacemos visibles los subtítulos para anchos de pantalla mayores a 1024px */
 @media screen and (min-width:1024px) {
 	.sidebar {
+		display:block;
+    width: 100%;
+	}
+}
+@media screen and (min-width:1274px) {
+	.widgets {
 		display:block;
 	}
 }
@@ -89,7 +95,7 @@ body {
   border-right: 1px solid var(--twitter-background);
   flex: 0.2;
 
-  min-width: 385px;
+  min-width: 30%;
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -278,6 +284,15 @@ body {
 .widgets__widgetContainer h2 {
   font-size: 18px;
   font-weight: 800;
+}
+
+iframe {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  height: 266px;
+  width: 260px;
 }
 
 /* Introduccion */
