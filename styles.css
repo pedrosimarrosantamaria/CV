@@ -7,7 +7,7 @@ html{
   width: 100%;
 }
 .feed{
-  width: 100%;
+  width: 80%;
 }
 
 .widgets{
@@ -25,12 +25,20 @@ html{
   .sidebar-mov{
     display: none;
   }
+  .feed{
+    width: 100%;
+  }
   
 }
 @media screen and (min-width:1274px) {
 	.widgets {
 		display:block;
 	}
+}
+@media screen and (max-width:480px){
+	html {
+		font-size:80%; 
+}
 }
 
 a{
@@ -114,16 +122,10 @@ body {
   font-weight: 400;
   padding-bottom: 0px;
 }
-/* sidebar movil*/
 
-.sidebar-mov{
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 /* feed */
 .feed {
-  flex: 0.5;
   border-right: 1px solid var(--twitter-background);
   
   
@@ -218,7 +220,7 @@ body {
 }
 
 .post__body img {
-  width: 450px;
+  width: 100%;
   object-fit: contain;
   border-radius: 20px;
 }
@@ -237,23 +239,22 @@ body {
 
 .post__headerSpecial {
   font-weight: 600;
-  font-size: 12px;
   color: gray;
 }
 
 .post__headerText h3 {
-  font-size: 15px;
   margin-bottom: 5px;
 }
 
 .post__headerDescription {
   margin-bottom: 10px;
-  font-size: 15px;
 }
 
 .post__body {
   flex: 1;
   padding-top: 20px;
+  padding-right: 10px;
+  width: 50%;
 }
 
 .post__avatar {
