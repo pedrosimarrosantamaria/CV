@@ -109,7 +109,6 @@ body {
   flex: 0.2;
 
   min-width: 30%;
-  margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -160,6 +159,14 @@ body {
 .tweetbox__input img {
   border-radius: 50%;
   height: 40px;
+}
+
+#video{
+  margin: auto; 
+  display: block;
+  border-radius:3%;
+  margin-top: 10px;
+  width: 80%;
 }
 
 .tweetBox {
@@ -222,7 +229,7 @@ body {
 .post__body img {
   width: 100%;
   object-fit: contain;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .post__footer {
@@ -263,7 +270,17 @@ body {
 
 /* widgets */
 .widgets {
-  flex: 0.3;
+  width: 60%;
+}
+
+.noticia{
+  margin-top: 10px;
+  border: 1px solid #E1E4E6;
+  border-radius: 2%;
+  padding: 10px;
+}
+.noticia:hover{
+  background-color:#E1E4E6
 }
 
 .widgets__input {
@@ -311,7 +328,6 @@ iframe {
 
 .introduccion {
   margin-top: 15px;
-  margin-left: 20px;
   padding: 20px;
   background-color: #e6ecf0;
   border-radius: 20px;

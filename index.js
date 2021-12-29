@@ -1,5 +1,5 @@
 /*Si clicamos en el botón del sol, borrarémos la clase css dark-mode del div 
-con id page y se aplicará el estilo active al sol*/
+con id page y se aplicará el estilo active al sol
 
 window.onload=function(){
     document.getElementById('id-sun').onclick = function(){
@@ -8,7 +8,7 @@ window.onload=function(){
         this.classList.add('active')
       }
       /*Si clicamos en el botón de la luna, añadiremos la clase css dark-mode del div 
-      con id page y se aplicará el estilo active a la luna*/
+      con id page y se aplicará el estilo active a la luna
     document.getElementById('id-moon').onclick = function(){
         document.getElementById('pagina').classList.add('dark-mode')
         document.getElementById('id-sun').classList.remove('active')
