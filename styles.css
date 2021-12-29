@@ -164,8 +164,9 @@ body {
 #video{
   margin: auto; 
   display: block;
-  padding-top: 10px; 
   border-radius:3%;
+  margin-top: 10px;
+  width: 80%;
 }
 
 .tweetBox {
@@ -228,7 +229,7 @@ body {
 .post__body img {
   width: 100%;
   object-fit: contain;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .post__footer {
@@ -273,7 +274,13 @@ body {
 }
 
 .noticia{
-  padding-top: 20px;
+  margin-top: 10px;
+  border: 1px solid #E1E4E6;
+  border-radius: 2%;
+  padding: 10px;
+}
+.noticia:hover{
+  background-color:#E1E4E6
 }
 
 .widgets__input {
